@@ -80,10 +80,12 @@
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">getSlot</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">editSlot</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-4">cancelSlot</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>Faculty Members</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Availability</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Confirmation</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Untitled</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>Student Methods</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">getAvailSlot</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">bookSlot</a>&nbsp;</li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">getConfirmed</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">editConfirmed</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-5">cancelConfirmed</a></li>
 				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section Item 4.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
@@ -125,7 +127,7 @@
 						<p>You can <a class="theme-link" href="https://gist.github.com/"  target="_blank">embed your code snippets using Github gists</a></p>
 						<div class="docs-code-block">
 							<!-- ** Embed github code starts ** -->
-							<script src="https://gist.github.com/xriley/fce6cf71edfd2dadc7919eb9c98f3f17.js"></script>
+						  <script src="https://gist.github.com/xriley/fce6cf71edfd2dadc7919eb9c98f3f17.js"></script>
 							<!-- ** Embed github code ends ** -->
 						</div><!--//docs-code-block-->
 						
@@ -409,7 +411,7 @@
                                     <li><a href="#" class="btn btn-warning">Warning Button</a></li>
                                     <li><a href="#" class="btn btn-danger">Danger Button</a></li>
                                 </ul>
-                            </div>
+                          </div>
                             <div class="col-md-6 col-12">
                                 <ul class="list list-unstyled pl-0">
                                     <li><a href="#" class="btn btn-primary"><i class="fas fa-download mr-2"></i> Download Now</a></li>
@@ -482,56 +484,45 @@
 				       <h2 class="section-heading">createSlot</h2>
 				       <p>Allows faculty members to add available consultation slots.</p>
 				     </section>
-				     <!--//section-->
 					
-					<section class="docs-section" id="item-2-2">
-					  <h2 class="section-heading">getSlot</h2>
-					  <p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
 					
-					<section class="docs-section" id="item-2-3">
-					  <h2 class="section-heading">editSlot</h2>
-					  <p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					<section class="docs-section" id="item-2-4">
-					  <h2 class="section-heading">cancelSlot</h2>
-					  <p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-				
-				
-
-
-
-
-			    <article class="docs-article" id="section-3">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Faculty Members</h1>
-					    <section class="docs-intro">
-						    <p>These are the available functions in the BookAProf! application. Do note that certain functions have specific variables that are needed to be passed in for the function to work.</p>
-						</section><!--//docs-intro-->
-					</header>
 					
-				     <section class="docs-section" id="item-3-1">
-						<h2 class="section-heading">Availability</h2>
-						<p>This section summarizes the methods that can be used by faculty members to add, view, edit or delete available slots on BookAProf!.</p>
-						
-
-						<h5>Add Available Slots</h5>
-						<div class="docs-code-block">
-							<!-- ** Embed github code starts ** -->
-							<script src="https://gist.github.com/everon987/09acbbd843032f4742c5dfedc27ca299.js"></script>
-							<!-- ** Embed github code ends ** -->
-						</div><!--//docs-code-block-->
-
-	
-						
-						<div class="table-responsive my-4">
-							<table class="table table-striped">
+					  <div class="table-responsive my-4">
+							<table class="table table-bordered">
+								<tbody>
+								    <tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+									    <td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/createSlot </td>
+									</tr>
+									<tr>
+									      <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+									      <td>POST </td>
+									</tr>
+									
+									<tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+									    <td>The details of the newly created slot and status code in JSON format. </td>
+									</tr>
+									
+									<tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+									    <td>Consultation slots must be created at least 2 days in advance. For example, if today is Monday, the earliest possible slot that can be created is on Thursday. This is to give students time to book and prepare for the consultation. </td>
+									</tr>
+								</tbody>
+							</table>
+				  </div><!--//table-responsive-->
+					
+					
+					<p>The table below highlights the request parameters for the createSlot api.</p>
+					
+					
+					
+					
+						<table class="table table-striped">
 								<thead>
 									<tr>
 										<th scope="col">Field</th>
+										<th scope="col">Required</th>
 										<th scope="col">Type</th>
 										<th scope="col">Description</th>
 									</tr>
@@ -539,75 +530,437 @@
 								<tbody>
 									<tr>
 										<th scope="row">date</th>
+										<td>Yes</td>
 										<td>String</td>
 										<td>The date of the available slot. Must be in the ‘dd/mm/yyyy’ format, e.g. ‘31/01/2020’.</td>
 									</tr>
 									<tr>
 										<th scope="row">start_time</th>
+										<td>Yes</td>
 										<td>String</td>
-										<td>The start time of the available slot. Must be in the ‘hh:mm’ 24-hour format and only with mm=‘00’ or mm=‘30’, e.g. '14:30’.</td>
+										<td>The start time of the available slot. Must be in the <strong>‘hh:mm’ 24-hour</strong> format, e.g. '14:30’. startTime value <strong>must be between ‘08:30’ and ‘18:00’</strong> and <strong>minute value has to be either 00 or 30.</strong></td>
 									</tr>
 									<tr>
 										<th scope="row">end_time</th>
+										<td>Yes</td>
 										<td>String</td>
-										<td>The end time of the available slot. Must be in the ‘hh:mm’ 24-hour forma and only with mm=‘00’ or mm=‘30’t, e.g. '15:30’. Method differs according to consultation type:
-											’private’: if the specified end time is longer than 30 minutes, the consultation slot will be split into multiple slots with 30 minutes duration.
-											‘open’: consultation slot will not be split into multiple slots.
-											More details of ‘type’ can be found here.</td>
+										<td>The end time of the available slot. Must be in the<strong> ‘hh:mm’ 24-hour</strong> format, e.g. '15:30’. endTime value <strong>must be between ‘09:00’ and ‘18:30’</strong> and <strong>minute value has to be either 00 or 30.</strong> Method differs according to consultation type: <strong>For ‘private’ consultations:</strong> if the total duration is longer than 30 minutes, the consultation slot will be split into multiple slots with 30 minutes duration for each slot. <strong>For ‘open’ consultations:</strong> the consultation slot will <strong>not</strong> be split into multiple slots.</td>
 									</tr>
+								
+
 									<tr>
-										<th scope="row">description*</th>
+										<th scope="row">type</th>
+										<td> No</td>
 										<td>String</td>
-										<td>The description of the available slot. If unspecified, the default is ‘-’.  For students’ to understand what to prepare for the consultation, e.g. ‘Please bring along your own bubble tea for extra consultation boost’.</td>
+										<td>The type of consultation. Values can only be either ‘open’ or ‘private’. If unspecified, the default is ‘private’. The difference between ‘open’ and ‘private’ is as follows: ‘private’: only one student is allowed to book the slot. Slot will be unavailable when one student confirms a booking. ‘open’: allows multiple students to book the same slot. Slot will be unavailable when the maximum number of sign-ups is reached.</td>
 									</tr>
+	
 									<tr>
-										<th scope="row">location*</th>
+										<th scope="row">slots</th>
+										<td> No</td>
+										<td>Integer</td>
+										<td>The maximum number of student bookings allowed for open consultation slots. If unspecified, the default is 1. There is no need to specify the number of slots for private consultations, as it must be 1. </td>
+									</tr>
+									
+									<tr>
+										<th scope="row">fDesc</th>
+										<td>No</td>
+										<td>String</td>
+										<td>The description written by the faculty member to let students know what topics will be covered or what to prepare. E.g. ‘Python refresher class. Bring bubble tea!’ If unspecified, the default is an empty string. </td>
+									</tr>
+									
+									<tr>
+										<th scope="row">location</th>
+										<td> No</td>
 										<td>String</td>
 										<td>The location of the available slot. If unspecified, the default is the faculty member’s office location, e.g. ‘SIS RM 4001’.</td>
 									</tr>
-									<tr>
-										<th scope="row">type*</th>
-										<td>String</td>
-										<td>The type of consultation. Values can only be either ‘open’ or ‘private’. If unspecified, the default is ‘private’. The difference between ‘open’ and ‘private’ is specified below.
-											‘private’: for private consultations for groups or individual students; allows only one student to book the slot, slot will be unavailable when one student confirms a booking.
-											‘open’: for open consultations; allows multiple students to book the same slot, slot will be unavailable when the maximum number of sign ups is reached.</td>
+								</tbody>
+				  </table>
+					
+					
+						<h5>Sample Request</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/71a7c5c9f910ab72572e8a84eae7195a.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					
+						<h5>Sample Response</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/a5bfae28dfc744921a1396a4c1685a34.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					
+					
+					
+					
+					
+					
+					
+				     <!--//section-->
+					
+					<section class="docs-section" id="item-2-2">
+					  <h2 class="section-heading">getSlot</h2>
+					  <p>Allows faculty members to get available and/or confirmed consultation slots.</p>
+					</section>
+					<!--//section-->
+					
+					
+					 <div class="table-responsive my-4">
+							<table class="table table-bordered">
+								<tbody>
+								    <tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+									    <td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/getSlot </td>
 									</tr>
 									<tr>
-										<th scope="row">module*</th>
-										<td>String</td>
-										<td>The module name. If unspecified, the default is ‘any module’. Often associated with open consultations, e.g. ‘SMT203’.</td>
+									      <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+									      <td>GET </td>
 									</tr>
-	
+									
 									<tr>
-										<th scope="row">slots*</th>
-										<td>Integer</td>
-										<td>The maximum number of bookings allowed. If unspecified, the default is 1. Often associated with open consultations, e.g. 20.</td>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+									    <td>The details of the available and/or confirmed slots and status code in JSON format. </td>
+									</tr>
+									
+									<tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+									    <td>Calling this method without any parameters will return all of the faculty member’s available and/or confirmed slots. </td>
 									</tr>
 								</tbody>
 							</table>
-							
-							<p>*Optional fields</p>
+				  </div><!--//table-responsive-->
+					
+					<table class="table table-striped">
+								<thead>
+									<tr>
+										<th scope="col">Field</th>
+										<th scope="col">Required</th>
+										<th scope="col">Type</th>
+										<th scope="col">Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row"> slotID</th>
+										<td> No</td>
+										<td> Integer</td>
+										<td>The ID of the confirmed/available slot, e.g. 1. If this parameter is used, the server will disregard all other parameters and return only the specified slot.</td>
+									</tr>
+									<tr>
+										<th scope="row"> isAvail</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>Value can only be either ‘available’ or ‘confirmed’. For ‘private’ consultations: ‘isAvail' shows ‘available’ when no student has booked the slot; when one student books the slot, ‘isAvail’ will be changed to ‘confirmed’ by the system. For ‘open’ consultations: ‘isAvail' will show ‘available’ until the maximum number of students for that slot is reached. When the maximum capacity for the slot is reached, ‘isAvail' will be changed to ‘confirmed’ by the system.<br></td>
+									</tr>
+									<tr>
+										<th scope="row">end_time</th>
+										<td>Yes</td>
+										<td>String</td>
+										<td>The end time of the available slot. Must be in the<strong> ‘hh:mm’ 24-hour</strong> format, e.g. '15:30’. endTime value <strong>must be between ‘09:00’ and ‘18:30’</strong> and <strong>minute value has to be either 00 or 30.</strong> Method differs according to consultation type: <strong>For ‘private’ consultations:</strong> if the total duration is longer than 30 minutes, the consultation slot will be split into multiple slots with 30 minutes duration for each slot. <strong>For ‘open’ consultations:</strong> the consultation slot will <strong>not</strong> be split into multiple slots.</td>
+									</tr>
+								
 
-							<h5>Get Available Slots</h5>
+									<tr>
+										<th scope="row">type</th>
+										<td> No</td>
+										<td>String</td>
+										<td>The type of consultation. Values can only be either ‘open’ or ‘private’. </td>
+									</tr>
+	
+									<tr>
+										<th scope="row"> date</th>
+										<td> No</td>
+										<td> String</td>
+										<td>The date of the available and/or confirmed slots. Must be in the ‘dd/mm/yyyy’ format, e.g. ‘31/01/2020’. </td>
+									</tr>
+									
+								</tbody>
+				  </table>
+					
+					
+						<h5>Sample Request</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/50d04782726ca4d0ae1f90b57c66d528.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					
+						<h5>Sample Response</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/5df78f02255f54d70c8d6630caa63ff7.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+									
+					
+					<section class="docs-section" id="item-2-3">
+					  <h2 class="section-heading">editSlot</h2>
+					  <p>Allows faculty members to edit the details of an available or confirmed consultation slot.</p>
+					</section>
+					<!--//section-->
+					
+					
+					
+						<div class="table-responsive my-4">
+							<table class="table table-bordered">
+								<tbody>
+								    <tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+									    <td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/editSlot </td>
+									</tr>
+									<tr>
+									      <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+									      <td> PUT</td>
+									</tr>
+									
+									<tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+									    <td> The details of the edited slot and status code in JSON format.</td>
+									</tr>
+									
+									<tr>
+									    <th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+									    <td>-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div><!--//table-responsive-->
+					
+					<table class="table table-striped">
+								<thead>
+									<tr>
+										<th scope="col">Field</th>
+										<th scope="col">Required</th>
+										<th scope="col">Type</th>
+										<th scope="col">Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row"> slotID</th>
+										<td> Yes</td>
+										<td> Integer</td>
+										<td>The ID of the available or confirmed slot, e.g. 505.</td>
+									</tr>
+									<tr>
+										<th scope="row"> fDesc</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>The description of the slot that the faculty member would like to edit.<br></td>
+									</tr>
+									<tr>
+										<th scope="row">location</th>
+										<td> No</td>
+										<td>String</td>
+										<td>The location of the consultation slot that the faculty member would like to edit.</td>
+									</tr>
+									
+								</tbody>
+				  </table>
+					
+					
+						<h5>Sample Request</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/46aee3287ca5497317cf1924fae26297.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					
+						<h5>Sample Response</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/89f8823e22815e02d9c23f00d922a249.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<section class="docs-section" id="item-2-4">
+					  <h2 class="section-heading">cancelSlot</h2>
+					  <p>Allows faculty members to cancel an available or confirmed consultation slot.</p>
+					</section>
+					<!--//section-->
+			    </article><!--//docs-article-->
+			    
+				
+					 <div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+											<td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/cancelSlot</td>
+										</tr>
+										<tr>
+											  <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+											  <td> PUT</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+											<td>The details of the cancelled slot and status code in JSON format.</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+											<td> -</td>
+										</tr>
+									</tbody>
+								</table>
+			  </div><!--//table-responsive-->
+					
+						<table class="table table-striped">
+									<thead>
+										<tr>
+											<th scope="col">Field</th>
+											<th scope="col">Required</th>
+											<th scope="col">Type</th>
+											<th scope="col">Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row"> slotID</th>
+											<td> Yes</td>
+											<td> Integer</td>
+											<td>The ID of the consultation slot to be cancelled, e.g. 505.</td>
+										</tr>
+										<tr>
+											<th scope="row"> fReasonCancelled</th>
+										  <td> Yes</td>
+											<td>String</td>
+											<td>The faculty member’s reason for cancelling.<br></td>
+										</tr>
+
+
+									</tbody>
+			  </table>
+					
+					
+						<h5>Sample Request</h5>
+						<div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+						  <script src="https://gist.github.com/everon987/c12b0b7709938d2eb25cecf16ec8dcd3.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+					
+						<h5>Sample Response</h5>
+			  <div class="docs-code-block">
+							<!-- ** Embed github code starts ** -->
+				<script src="https://gist.github.com/everon987/5dca11b75a9e859b30d39dbf0bfd5bd5.js"></script>
+							<!-- ** Embed github code ends ** -->
+						</div><!--//docs-code-block-->
+
+
+
+
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+				      <h1 class="docs-heading">Student Methods</h1>
+				      <section class="docs-intro">
+				        <p>All methods listed in this section are only intended to be used by students of SMU. Faculty members should <strong>not</strong> try to impersonate a student. </p>
+				      </section>
+				      <!--//docs-intro-->
+					</header>
+					
+				     <section class="docs-section" id="item-3-1">
+			  <h2 class="section-heading">getAvailSlot</h2>
+						<p>Allows students to get available slots of faculty members that are currently teaching the student.</p>
+						 
+						 <div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+											<td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/getAvailSlot</td>
+										</tr>
+										<tr>
+											  <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+											  <td>GET</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+											<td>The details of the faculty members’ available slots and status code in JSON format.</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+											<td>Calling this method without any parameters will return all available slots of all faculty members that are currently teaching the student.</td>
+										</tr>
+									</tbody>
+								</table>
+						  </div><!--//table-responsive-->
+						
+						 
+						 
+						 <table class="table table-striped">
+								<thead>
+									<tr>
+										<th scope="col">Field</th>
+										<th scope="col">Required</th>
+										<th scope="col">Type</th>
+										<th scope="col">Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row"> slotID</th>
+										<td> No</td>
+										<td> Integer</td>
+										<td>The ID of the available slot, e.g. 505. If slotID is used, the server will disregard all other parameters and return only the specified slot.</td>
+									</tr>
+									<tr>
+										<th scope="row"> fEmail</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>The faculty member’s email, e.g. ‘faculty@smu.edu.sg’.<br></td>
+									</tr>
+									<tr>
+										<th scope="row">type</th>
+										<td>No</td>
+										<td>String</td>
+										<td>The type of consultation. Value can only be either ‘open’ or ‘private’. </td>
+									</tr>
+								
+	
+									<tr>
+										<th scope="row"> date</th>
+										<td> No</td>
+										<td> String</td>
+										<td>The date of the available slot. Must be in the ‘dd/mm/yyyy’ format, e.g. ‘31/01/2020’. </td>
+									</tr>
+									
+								</tbody>
+							</table>
+
+		
+
+
+
+							<h5>Sample Request</h5>
 							<div class="docs-code-block">
 								<!-- ** Embed github code starts ** -->
-								<script src="https://gist.github.com/everon987/09acbbd843032f4742c5dfedc27ca299.js"></script>
+								<script src="https://gist.github.com/everon987/0734a91f1c03ff3ea212b2606ec0d05a.js"></script>
 								<!-- ** Embed github code ends ** -->
 							</div><!--//docs-code-block-->
 	
-							<h5>Edit Available Slots</h5>
+							<h5>Sample Response</h5>
 							<div class="docs-code-block">
 								<!-- ** Embed github code starts ** -->
-								<script src="https://gist.github.com/everon987/09acbbd843032f4742c5dfedc27ca299.js"></script>
+								<script src="https://gist.github.com/everon987/76acc63e1dde9eed1aeb27169ee13c4a.js"></script>
 								<!-- ** Embed github code ends ** -->
 							</div><!--//docs-code-block-->
 	
-							<h5>Cancel Available Slots</h5>
-							<div class="docs-code-block">
-								<!-- ** Embed github code starts ** -->
-								<script src="https://gist.github.com/everon987/09acbbd843032f4742c5dfedc27ca299.js"></script>
-								<!-- ** Embed github code ends ** -->
-							</div><!--//docs-code-block-->
+
 
 	
 							
@@ -616,12 +969,199 @@
 
 					
 					<section class="docs-section" id="item-3-2">
-						<h2 class="section-heading">Confirmation</h2>
-						<p>Do not, under no circumstances, impersonate a student. Disciplinary measures will be taken against offenders.</p>
+						<h2 class="section-heading">bookSlot</h2>
+						<p>Allows students to book an available consultation slot.</p>
+						
+						
+						
+						 <div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+											<td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/bookSlot</td>
+										</tr>
+										<tr>
+											  <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+											  <td> POST</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+											<td>The details of the slot that the student booked and status code in JSON format.</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+											<td>Students must book consultation slots at least 2 days in advance. E.g. if today is Monday, the earliest possible slot that a student can book is on Thursday.</td>
+										</tr>
+									</tbody>
+								</table>
+						  </div><!--//table-responsive-->
+						
+						 
+						 
+						 <table class="table table-striped">
+								<thead>
+									<tr>
+										<th scope="col">Field</th>
+										<th scope="col">Required</th>
+										<th scope="col">Type</th>
+										<th scope="col">Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row"> slotID</th>
+										<td>Yes</td>
+										<td> Integer</td>
+										<td>The ID of the available slot, e.g. 505.</td>
+									</tr>
+									<tr>
+										<th scope="row"> sDesc</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>Any information that the student would like to inform the faculty member of. This may include subject area(s) that the student wants to focus on, special requests to the faculty member, group members’ details etc. E.g. “Team 5 project consultation on database design”. If unspecified, the default is an empty string.<br></td>
+									</tr>
+									
+								</tbody>
+							</table>
+
+		
+
+
+
+							<h5>Sample Request</h5>
+								<div class="docs-code-block">
+									<!-- ** Embed github code starts ** -->
+									<script src="https://gist.github.com/everon987/fcb4c59abedafaa3d07828e2c8693a26.js"></script>
+									<!-- ** Embed github code ends ** -->
+								</div><!--//docs-code-block-->
+	
+							<h5>Sample Response</h5>
+								<div class="docs-code-block">
+									<!-- ** Embed github code starts ** -->
+									<script src="https://gist.github.com/everon987/3089afcb717390929b1ce86aa0dcb098.js"></script>
+									<!-- ** Embed github code ends ** -->
+								</div><!--//docs-code-block-->
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-3-3">
-						<h2 class="section-heading">Untitled</h2>
+						<h2 class="section-heading">getConfirmed</h2>
+						<p>Allows students to retrieve confirmed bookings.</p>
+						
+						
+						
+						 <div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">URL</a></th>
+											<td>https://bookaprof_api.herokuapp.com/api/<strong>token</strong>/getConfirmed</td>
+										</tr>
+										<tr>
+											  <th class="theme-bg-light"><a class="theme-link" href="#">Method</a></th>
+											  <td>GET</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Returns</a></th>
+											<td>The details of the student’s confirmed booking(s) and status code in JSON format.</td>
+										</tr>
+
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Note</a></th>
+											<td>Calling this method without any parameters will return all of the student’s confirmed bookings.</td>
+										</tr>
+									</tbody>
+								</table>
+						  </div><!--//table-responsive-->
+						
+						 
+						 
+						 <table class="table table-striped">
+								<thead>
+									<tr>
+										<th scope="col">Field</th>
+										<th scope="col">Required</th>
+										<th scope="col">Type</th>
+										<th scope="col">Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row"> slotID</th>
+										<td> No</td>
+										<td> Integer</td>
+										<td>The ID of the confirmed slot, e.g. 505. If slotID is used, the server will disregard all other parameters and return only the specified slot.</td>
+									</tr>
+									<tr>
+										<th scope="row">fEmail</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>The faculty member’s email, e.g. ‘faculty@smu.edu.sg’.<br></td>
+									</tr>
+									<tr>
+										<th scope="row"> type</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>The type of consultation. Value can only be either ‘open’ or ‘private’. <br></td>
+									</tr>
+									<tr>
+										<th scope="row">date</th>
+									  <td> No</td>
+										<td>String</td>
+										<td>The date of the confirmed slot. Must be in the ‘dd/mm/yyyy’ format, e.g. ‘31/01/2020’.<br></td>
+									</tr>
+									
+								</tbody>
+							</table>
+
+		
+
+
+
+							<h5>Sample Request</h5>
+								<div class="docs-code-block">
+									<!-- ** Embed github code starts ** -->
+									<script src="https://gist.github.com/everon987/8a78fdef46224ae537be908535a078c4.js"></script>
+									<!-- ** Embed github code ends ** -->
+								</div><!--//docs-code-block-->
+	
+							<h5>Sample Response</h5>
+								<div class="docs-code-block">
+									<!-- ** Embed github code starts ** -->
+									<script src="https://gist.github.com/everon987/887424afd0a7d63915c0fd992a982996.js"></script>
+									<!-- ** Embed github code ends ** -->
+								</div><!--//docs-code-block-->
+						
+						
+						
+						
+						
+					
+					</section>
+					<!--//section-->
+					
+					<section class="docs-section" id="item-3-4">
+						<h2 class="section-heading">editConfirmed</h2>
+						<p>This section summarizes the methods that can be used by faculty members to add, view, edit or delete available slots on BookAProf!.</p>
+							
+					</section><!--//section-->
+					
+					
+					<section class="docs-section" id="item-3-5">
+						<h2 class="section-heading">cancelConfirmed</h2>
 						<p>This section summarizes the methods that can be used by faculty members to add, view, edit or delete available slots on BookAProf!.</p>
 							
 					</section><!--//section-->
@@ -650,7 +1190,7 @@
 						<h2 class="section-heading">Section Item 4.3</h2>
 						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
 					</section><!--//section-->
-			    </article><!--//docs-article-->
+		      </article><!--//docs-article-->
 			    
 			    <article class="docs-article" id="section-5">
 				    <header class="docs-header">
